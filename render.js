@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOMServer from 'react-dom/server'
+import ReactDOMServer from 'react-dom/server';
 
 import BlogPage from './components/containers/messageContainer';
 
@@ -11,4 +11,4 @@ export default result;
 
 
 
-// (React.createElement(BlogPage), document.getElementById('app'))
+
