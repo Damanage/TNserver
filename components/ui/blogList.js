@@ -14,19 +14,3 @@ const BlogList = ({blogData})=>(
 	) 
 
 export default BlogList
-
-
-// class BlogList extends React.Component{
-
-// 	render(){
-// 		return React.createElement(
-// 			'div',
-// 			{className:'blogList'},
-// 				_.map(this.props.blogData,(item, key)=>(
-// 						)
-// 						React.createElement(BlogItem,{key, imgLink:item.link, blogText:item.text})
-// 					)
-// 		)
-// 	};  
-
-// };  Версия,где объект получает даенные  через свойства. 
